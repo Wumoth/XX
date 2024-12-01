@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="tx.png" type="image/ico">
+    <title>下载页</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+            background-image: url('bj.png');
+            /* 随机二次元背景图 */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .container {
+            max-width: 600px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            /* 半透明背景 */
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            width: 100%;
+            z-index: 1;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #41eec39a;
+        }
+
+        h3,
+        h4 {
+            color: #0099ff;
+        }
+
+        p {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 3px solid #66c7ff;
+            /* 头像边框颜色 */
+        }
+
+        a {
+            color: #0078d4;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .quote-container {
+            margin-top: 40px;
+            font-size: 1.2rem;
+            color: #6666cc;
+        }
+
+        @media screen and (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+        }
+
+        .svg-btn {
+            position: relative;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        .underline {
+            position: absolute;
+            bottom: 20px;
+            /* 底部间距 */
+            left: 50%;
+            width: 100%;
+            height: 2px;
+            /* 下划线的高度 */
+            background-color: #5ab7ff;
+            /* 下划线颜色 */
+            transform: translateX(-50%) scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .svg-btn:hover .underline {
+            transform: translateX(-50%) scaleX(1);
+            /* 当悬停时，宽度变为100% */
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="color: red;">访问密码：1314</h2>
+    <h3 style="color: red;">单独的名字都是一体化（插件）</h3>
+    <div class="container">
+        <a href="https://url73.ctfile.com/d/45427673-64058563-8f4414?" class="svg-btn">
+            <img src="img/downloads.svg" alt="B站" style="width: 40px; height: 40px; margin-top: 10px;">
+            <span class="underline"></span>
+            <p>框架</p>
+        </a>
+        <a href="https://url73.ctfile.com/d/45427673-63972136-d358aa?" class="svg-btn">
+            <img src="img/downloads.svg" alt="B站" style="width: 40px; height: 40px; margin-top: 10px;">
+            <span class="underline"></span>
+            <p>直装</p>
+        </a>
+        <a href="https://url73.ctfile.com/d/45427673-64058623-556bf5?" class="svg-btn">
+            <img src="img/downloads.svg" alt="B站" style="width: 40px; height: 40px; margin-top: 10px;">
+            <span class="underline"></span>
+            <p>小狐狸</p>
+        </a>
+        <div>
+            <a href="https://url73.ctfile.com/d/45427673-64058614-cb0a0d?" class="svg-btn">
+                <img src="img/downloads.svg" alt="B站" style="width: 40px; height: 40px; margin-top: 10px;">
+                <span class="underline"></span>
+                <p>懒洋洋</p>
+            </a>
+            <a href="https://url73.ctfile.com/d/45427673-64058653-42811a?" class="svg-btn">
+                <img src="img/downloads.svg" alt="B站" style="width: 40px; height: 40px; margin-top: 10px;">
+                <span class="underline"></span>
+                <p>沐雪</p>
+            </a>
+            <a href="https://url73.ctfile.com/d/45427673-64058995-b14928?" class="svg-btn">
+                <img src="img/downloads.svg" alt="B站" style="width: 40px; height: 40px; margin-top: 10px;">
+                <span class="underline"></span>
+                <p>奇奇</p>
+            </a>
+        </div>
+        <div>
+
+            <a href="https://url73.ctfile.com/d/45427673-63972133-cb4848?" class="svg-btn">
+                <img src="img/downloads.svg" alt="B站" style="width: 40px; height: 40px; margin-top: 10px;">
+                <span class="underline"></span>
+                <p>无敌整合包（更多）</p>
+            </a>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
